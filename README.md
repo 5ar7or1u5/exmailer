@@ -1,2 +1,0 @@
-# laravel-package
-Test assignment.
