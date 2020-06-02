@@ -1,0 +1,30 @@
+{
+    "name": "5ar7or1u5/exmailer",
+    "description": "Test assignment.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smirnov Nikita",
+            "email": "smirnov.niki@inbox.ru"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^7.0",
+        "php": "^7.2.5"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "5ar7or1u5\\exmailer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "5ar7or1u5\\Exmailer\\ExmailerServiceProvider"
+            ]
+        }
+    }
+}
